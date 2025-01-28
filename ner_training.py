@@ -32,7 +32,10 @@ LABEL_MAP = {
     'religion': 7,
     'sexual_orientation': 8,
     'gender': 9,
-    'disability': 10
+    'disability': 10, 
+    'working class': 11, 
+    'ideological':12, 
+    'intersectional': 13
 }
 
 # Function to load and preprocess data
