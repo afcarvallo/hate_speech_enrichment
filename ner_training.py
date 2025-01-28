@@ -14,7 +14,7 @@ print(device)
 
 # Paths and model configuration
 DATA_PATH = 'path_to_data/'
-MODEL_NAME = 'bert-base-multilingual-cased'  # Use a multilingual model that can handle various languages
+MODEL_NAME = 'FacebookAI/xlm-roberta-large-finetuned-conll03-english' 
 CACHE_DIR = 'path_to_cache/'
 TRAIN_FILE = f'{DATA_PATH}train.csv'
 VAL_FILE = f'{DATA_PATH}val.csv'
